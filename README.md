@@ -17,3 +17,12 @@ Our goal is to build a robust, open-source foundation for disaster resilience. W
 
 ---
 *For more details on roles and processes, see [GOVERNANCE.md](GOVERNANCE.md).*
+
+## How to Update Meeting Minutes
+
+To add new meeting minutes to the timeline:
+1. Open [meetings.html](docs/meetings.html).
+2. Copy an existing meeting entry block (the `div` with the relative flex layout).
+3. Paste it at the top of the timeline container.
+4. Update the date, title, and content.
+5. Commit and push the changes to update the live site.
