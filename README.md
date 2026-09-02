@@ -6,6 +6,7 @@ Closing gaps in disaster-response systems for Nepal through open-source innovati
 
 - 💡 **[Submit an Idea](https://github.com/your-org/your-repo/issues/new/choose)**
 - 📊 **[Idea Pipeline Board](#)**
+- 📅 **[Meeting Minutes Timeline](https://your-org.github.io/your-repo/meetings.html)**
 - 📜 **[Governance Policy](GOVERNANCE.md)**
 - 🤝 **[Contributing Guidelines](CONTRIBUTING.md)**
 - 🌐 **[Landing Page](https://your-org.github.io/your-repo/)**

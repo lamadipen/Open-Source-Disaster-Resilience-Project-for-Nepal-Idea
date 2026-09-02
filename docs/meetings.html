@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meeting Minutes | Nepal Disaster Resilience</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .timeline-line {
+            width: 2px;
+            background: #e2e8f0;
+            position: absolute;
+            left: 20px;
+            top: 0;
+            bottom: 0;
+        }
+        @media (min-width: 768px) {
+            .timeline-line {
+                left: 50%;
+                margin-left: -1px;
+            }
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm py-4 px-6 sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <a href="index.html" class="text-xl font-bold text-blue-800">Nepal Disaster Resilience</a>
+            <a href="index.html" class="text-slate-600 hover:text-blue-600 font-medium transition">Back to Home</a>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="bg-white border-b py-12 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <h1 class="text-3xl md:text-4xl font-bold mb-4">Meeting Minutes & Timeline</h1>
+            <p class="text-slate-600 text-lg">
+                Keeping track of our progress, decisions, and discussions.
+            </p>
+        </div>
+    </header>
+
+    <!-- Timeline Section -->
+    <main class="py-16 px-6">
+        <div class="max-w-6xl mx-auto relative">
+            <!-- The vertical line -->
+            <div class="timeline-line"></div>
+
+            <!-- Meeting Entries Container -->
+            <div class="space-y-12">
+
+                <!-- 
+                     HOW TO ADD A NEW MEETING:
+                     Copy the block below and paste it at the top of this container.
+                -->
+
+                <!-- Meeting Entry 1 -->
+                <div class="relative flex flex-col md:flex-row items-center">
+                    <div class="flex-1 w-full md:w-1/2 md:pr-12 md:text-right mb-4 md:mb-0">
+                        <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100 hover:shadow-md transition">
+                            <span class="text-blue-600 font-bold text-sm uppercase tracking-wider">September 1, 2026</span>
+                            <h3 class="text-xl font-bold mt-2 mb-3">Project Kickoff & Structure Setup</h3>
+                            <p class="text-slate-600 text-sm leading-relaxed">
+                                Initialized repository tracks, established governance policies, and launched the landing site. Defined the core hazard types for Nepal.
+                            </p>
+                            <div class="mt-4 flex flex-wrap gap-2 md:justify-end">
+                                <span class="bg-blue-50 text-blue-700 px-3 py-1 rounded-full text-xs font-medium">Planning</span>
+                                <span class="bg-green-50 text-green-700 px-3 py-1 rounded-full text-xs font-medium">Completed</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dot -->
+                    <div class="absolute left-[10px] md:left-1/2 md:-ml-2.5 w-5 h-5 rounded-full border-4 border-white bg-blue-600 shadow-sm z-10"></div>
+                    <div class="flex-1 w-full md:w-1/2 md:pl-12"></div>
+                </div>
+
+                <!-- Meeting Entry 2 (Alternating Side) -->
+                <div class="relative flex flex-col md:flex-row items-center">
+                    <div class="flex-1 w-full md:w-1/2 md:pr-12"></div>
+                    <!-- Dot -->
+                    <div class="absolute left-[10px] md:left-1/2 md:-ml-2.5 w-5 h-5 rounded-full border-4 border-white bg-orange-500 shadow-sm z-10"></div>
+                    <div class="flex-1 w-full md:w-1/2 md:pl-12">
+                        <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100 hover:shadow-md transition">
+                            <span class="text-orange-600 font-bold text-sm uppercase tracking-wider">August 28, 2026</span>
+                            <h3 class="text-xl font-bold mt-2 mb-3">Stakeholder Identification</h3>
+                            <p class="text-slate-600 text-sm leading-relaxed">
+                                Identified key government and NGO partners in Nepal for data sourcing and validation. Discussed sensor network gaps in Kosi basin.
+                            </p>
+                            <div class="mt-4 flex flex-wrap gap-2">
+                                <span class="bg-orange-50 text-orange-700 px-3 py-1 rounded-full text-xs font-medium">Research</span>
+                                <span class="bg-slate-50 text-slate-700 px-3 py-1 rounded-full text-xs font-medium">External</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add more entries here -->
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-12 px-6 mt-20">
+        <div class="max-w-4xl mx-auto text-center">
+            <p>&copy; 2026 Nepal Disaster Resilience Project • <a href="index.html" class="hover:text-white underline">Home</a></p>
+        </div>
+    </footer>
+</body>
+</html>
