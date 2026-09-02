@@ -2,6 +2,8 @@ name: Idea Submission
 description: Propose a new idea for disaster resilience in Nepal.
 title: "[Idea]: "
 labels: ["idea"]
+assignees: ["lamadipen"]
+projects: ["lamadipen/4"]
 body:
   - type: dropdown
     id: hazard-type
