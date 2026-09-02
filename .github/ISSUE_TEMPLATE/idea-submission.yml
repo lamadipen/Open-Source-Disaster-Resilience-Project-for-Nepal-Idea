@@ -1,0 +1,49 @@
+name: Idea Submission
+description: Propose a new idea for disaster resilience in Nepal.
+title: "[Idea]: "
+labels: ["idea"]
+body:
+  - type: dropdown
+    id: hazard-type
+    attributes:
+      label: Hazard Type
+      description: What type of disaster does this idea address?
+      options:
+        - Weather Forecasting
+        - Flood Detection
+        - Landslide Detection
+        - Fire Detection
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: problem-statement
+    attributes:
+      label: Problem Statement
+      description: Describe the gap or problem this idea aims to solve.
+      placeholder: e.g., Lack of early warning sensors in the Kosi River basin.
+    validations:
+      required: true
+  - type: textarea
+    id: proposed-approach
+    attributes:
+      label: Proposed Approach
+      description: How do you propose to solve this?
+      placeholder: e.g., Deploying low-cost IoT sensors and a rainfall prediction model.
+    validations:
+      required: true
+  - type: textarea
+    id: data-sensors
+    attributes:
+      label: Data/Sensors Needed or Available
+      description: List any data sources or sensors required or already identified.
+  - type: textarea
+    id: impact-viability
+    attributes:
+      label: Estimated Impact/Viability
+      description: Why is this idea important and how feasible is it?
+  - type: input
+    id: contact
+    attributes:
+      label: Submitter Name/Contact
+      description: Optional way for us to reach out for clarification.
