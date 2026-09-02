@@ -5,7 +5,7 @@ Closing gaps in disaster-response systems for Nepal through open-source innovati
 ## Quick Links
 
 - 💡 **[Submit an Idea](https://github.com/lamadipen/Open-Source-Disaster-Resilience-Project-for-Nepal-Idea/issues/new/choose)**
-- 📊 **[Idea Pipeline Board](#)**
+- 📊 **[Idea Pipeline Board](https://github.com/users/lamadipen/projects/4/views/4?groupedBy%5BcolumnId%5D=Status)**
 - 📅 **[Meeting Minutes Timeline](https://lamadipen.github.io/Open-Source-Disaster-Resilience-Project-for-Nepal-Idea/meetings.html)**
 - 📜 **[Governance Policy](GOVERNANCE.md)**
 - 🤝 **[Contributing Guidelines](CONTRIBUTING.md)**
